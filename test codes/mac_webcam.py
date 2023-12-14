@@ -73,7 +73,7 @@ while True:
         # find moment of contour
         M = cv2.moments(c)
         # find center of contour
-        print("M:", M)
+        #print("M:", M)
         center = (int(M["m10"] / M["m00"]), int(M["m01"] / M["m00"]))
         # draw circle around contour
         cv2.circle(img, (int(x), int(y)), int(radius), (0, 255, 255), 2)
