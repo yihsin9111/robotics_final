@@ -2,6 +2,7 @@ import cv2
 import argparse
 import numpy as np
 from collections import deque
+from cv2 import aruco
 # interaction : MediaPipe
 # gesture recognition : https://techvidvan.com/tutorials/hand-gesture-recognition-tensorflow-opencv/
 width = 640
@@ -36,6 +37,13 @@ while True:
     # convert to grayscale
     img_hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
+    # aruco detection
+    frame = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    aruco_dict = aruco.getPredefinedDictionary(aruco.DICT_4X4_250)
+    parameters =  aruco.DetectorParameters()
+    detector = aruco.ArucoDetector(aruco_dict, parameters)
+    markerCorners, markerIds, rejectedCandidates = detector.detectMarkers(frame)
+
     # create mask & remove small blobs
     mask = cv2.inRange(img_hsv, low, high)
     mask = cv2.erode(mask, None, iterations=2)
@@ -64,10 +72,13 @@ while True:
         cv2.putText(img, "centroid", (center[0] - 25, center[1] - 25),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
         
+    frame_markers = aruco.drawDetectedMarkers(img, markerCorners, markerIds)
+
+        
     # update points queue & draw trail
     pts.appendleft(center)
 
-    cv2.imshow("Video", img)
+    #cv2.imshow("Video", img)
     cv2.imshow("Mask", mask)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
