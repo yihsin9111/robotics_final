@@ -1,5 +1,6 @@
 import cv2
 import argparse
+import yaml
 import numpy as np
 from collections import deque
 from cv2 import aruco
@@ -26,6 +27,16 @@ cap = cv2.VideoCapture(1) # 0 for webcam, 1 for external camera
 cap.set(3, width)
 cap.set(4, height)
 cap.set(10, 150)
+
+'''
+with open('params.yaml') as f:
+    calibration_dict = yaml.safe_load(f)
+
+print('yaml:', calibration_dict)
+'''
+
+cameraMatrix = [ [6.8148813235276111e+02, 0., 1.2918934885396354e+03], [0., 6.8350370246497005e+02, 9.7566227421055237e+02], [0., 0., 1.] ]
+distCoeffs = [ -3.2460343148028625e-01, 1.0309934732790764e-01, 1.6143827622055185e-03, 1.3462626627824006e-03, -1.3665170713443517e-02 ]
 
 if not cap.isOpened():
     raise IOError("Cannot open webcam")
@@ -73,12 +84,14 @@ while True:
                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
         
     frame_markers = aruco.drawDetectedMarkers(img, markerCorners, markerIds)
-
-        
+    [rvecs, tvecs, _objPoints] = aruco.estimatePoseSingleMarkers(markerCorners, 0.05, np.float32(cameraMatrix), np.float32(distCoeffs))
+    cv2.putText(img, f"translation matrix: {tvecs}", (25,25),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+    
     # update points queue & draw trail
     pts.appendleft(center)
 
-    #cv2.imshow("Video", img)
+    cv2.imshow("Video", img)
     cv2.imshow("Mask", mask)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
