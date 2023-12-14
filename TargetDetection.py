@@ -9,7 +9,6 @@ distCoeffs = [ -3.2460343148028625e-01, 1.0309934732790764e-01, 1.61438276220551
 # target classes
 class CircleTarget:
     def __init__(self, bgr_color=[59,51,172], depth_c=[0,0,0]):
-
         self.x = 0
         self.y = 0
         self.radius = 0
@@ -70,10 +69,8 @@ class CircleTarget:
 
         return img
 
-
 class ArucoTarget:
-    def __init__(self, aruco_id):
-        self.id = aruco_id
+    def __init__(self):
         self.tvec = None
         self.rvec = None
 
@@ -100,9 +97,11 @@ class ArucoTarget:
                                                                      0.05, 
                                                                      np.float32(cameraMatrix),
                                                                      np.float32(distCoeffs))
-
         return img
     
+if __name__=="__main__":
+
+    circle_target = CircleTarget()
+    aruco_target = ArucoTarget()
+
     
-
-
