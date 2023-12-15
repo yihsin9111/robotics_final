@@ -83,16 +83,6 @@ class ArucoTarget:
         detector = aruco.ArucoDetector(aruco_dict, parameters)
         markerCorners, markerIds, rejectedCandidates = detector.detectMarkers(frame)
 
-        # if aruco marker exists
-        if markerIds is not None:
-            for i in range(len(markerIds)):
-                if markerIds[i][0] == self.id:
-                    self.tvec = detector.get_tvec(markerCorners[i][0])
-                    self.rvec = detector.get_rvec(markerCorners[i][0])
-                    frame_markers = aruco.drawDetectedMarkers(img, markerCorners, markerIds)
-                    frame_markers = aruco.drawAxis(frame_markers, cameraMatrix, distCoeffs, self.rvec, self.tvec, 0.1)
-                    break
-
         frame_markers = aruco.drawDetectedMarkers(img, markerCorners, markerIds)
         [self.rvecs, self.tvecs, _objPoints] = aruco.estimatePoseSingleMarkers(markerCorners, 
                                                                      0.05, 
