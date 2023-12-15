@@ -14,11 +14,13 @@ hue = targetColorHSV[0][0][0]
 low, high = [hue - 10, 100, 100], [hue + 10, 255, 255]
 low, high = np.array(low, dtype=np.uint8), np.array(high, dtype=np.uint8)
 
-cameraMatrix = np.array([[6.8148813235276111e+02, 0., 1.2918934885396354e+03],
-                         [0., 6.8350370246497005e+02, 9.7566227421055237e+02], [0., 0., 1.]])
-distCoeffs = np.array([-3.2460343148028625e-01, 1.0309934732790764e-01,
-                       1.6143827622055185e-03, 1.3462626627824006e-03, -1.3665170713443517e-02])
+cameraMatrix = np.array([[9.3507503118225702e+02, 0., 2.5305835155343249e+02],
+                         [0., 9.3765863543522573e+02, 3.0807631925655937e+02], [0., 0., 1.]])
+distCoeffs = np.array([1.3640642180519275e-01, -5.3139149725040591e-01,
+                       -4.5392856265975600e-03, -1.8678725716376961e-02, 9.3728818573236672e-01])
 
+
+id = 0
 
 if __name__ == "__main__":
     targetDetector = Detector(
@@ -35,12 +37,20 @@ if __name__ == "__main__":
         rpi_name, jpg_buffer = image_hub.recv_jpg()
 
         img = cv2.imdecode(np.frombuffer(jpg_buffer, dtype='uint8'), -1)
+        orig = img.copy()
 
-        targetMetaData, arucoMetaData = targetDetector.detect(img)
+        targetMetaData, arucoMetaData, gesture = targetDetector.detect(img)
 
-        cv2.imshow("Aruco", targetMetaData.image)
-        cv2.imshow("Target", arucoMetaData.image)
-        cv2.waitKey(1)
+        cv2.imshow("Aruco", arucoMetaData.image)
+        cv2.imshow("Target", targetMetaData.image)
+        print(gesture)
+        # cv2.waitKey(1)
+
+        # take picture
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            cv2.imwrite(f'./image_{id:02d}.jpg', orig)
+            print(f'Image {id:02d} saved')
+            id += 1
 
         # print(targetMetaData.center)
-        print(arucoMetaData.tvecs)
+        # print(arucoMetaData.tvecs)

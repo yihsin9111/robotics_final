@@ -1,8 +1,8 @@
 import cv2
 import imagezmq
 import numpy as np
-from GestureDetection import Gesture
-from TargetDetection import CircleTarget, ArucoTarget
+from integrated.GestureDetection import Gesture
+from integrated.TargetDetection import CircleTarget, ArucoTarget
 
 # image_hub = imagezmq.ImageHub()
 image_hub = imagezmq.ImageHub(open_port="tcp://192.168.10.13:5555", REQ_REP=False)
