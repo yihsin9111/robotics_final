@@ -18,8 +18,41 @@ cap.set(10, 150)
 if not cap.isOpened():
     raise IOError("Cannot open webcam")
 
-circle = CircleTarget(bgr_color=[b, g, r], depth_c=[0, 0, 0])
+circle_target = CircleTarget(bgr_color=[b, g, r], depth_c=[1, 1, 1])
+aruco_target = ArucoTarget()
+gesture = Gesture()
+shooter_state = 'waiting'
 
 while True:
+
+    _, image = cap.read()
+    circle_target.get_target(image)
+    aruco_target.get_target(image)
+    gesture.get_gesture(image)
+
+    # gesture control
+    if shooter_state == 'waiting':
+        if gesture.pred == 'fist':
+            shooter_state = 'ready'
+
+    elif shooter_state == 'ready':
+        if gesture.pred == 'stop' or gesture.pred == 'live long':
+            shooter_state = 'shoot'
+
+    elif shooter_state == 'shoot': 
+        shooter_state = 'waiting'
+
+    # return result
+    result = {
+        "circle_coord" : circle_target.real_coord,
+        "aruco_tvec" : aruco_target.tvec,
+        "aruco_rvec" : aruco_target.rvec,
+        "shooter_state" : shooter_state,
+    }
+
+    cv2.imshow('result', image)
+
+    #if cv2.waitKey(1) & 0xFF == ord('q'):
+    print(result)
     
 

@@ -15,9 +15,7 @@ class CircleTarget:
 
         # target position relative to camera
         # set camera as origin
-        self.x_real = 0
-        self.y_real = 0
-        self.z_real = 0
+        self.real_coord = [0, 0, 0]
 
         # depth, width, pixel
         self.f = depth_c[0]*depth_c[2]/depth_c[1]
@@ -25,8 +23,11 @@ class CircleTarget:
 
         # set color detection threshold
         color = np.uint8([[[bgr_color[0], bgr_color[1], bgr_color[2]]]])
-        hue = cv2.cvtColor(color, cv2.COLOR_BGR2HSV)
+        hsv_color = cv2.cvtColor(color, cv2.COLOR_BGR2HSV)
+        hue = hsv_color[0][0][0]
         low, high = [hue - 10, 100, 100], [hue + 10, 255, 255]
+
+        print('limits:', low, high)
         self.low, self.high = np.array(low, dtype=np.uint8), np.array(high, dtype=np.uint8)
 
     def get_target(self, img):
@@ -62,7 +63,7 @@ class CircleTarget:
             # get x and y coordinates from z coordinate and camera matrix
             img_pos = np.array([self.x, self.y, self.z])
             cam_mat = np.array(cameraMatrix)
-            self.x_real, self.y_real, self.z_real = np.matmul(np.linalg.inv(cam_mat), np.transpose(img_pos))
+            self.real_coord = np.matmul(np.linalg.inv(cam_mat), np.transpose(img_pos))
 
             # draw circle around contour
             cv2.circle(img, (int(x), int(y)), int(radius), (0, 255, 255), 2)

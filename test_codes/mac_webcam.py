@@ -18,6 +18,7 @@ hsv_color = cv2.cvtColor(color, cv2.COLOR_BGR2HSV)
 hue = hsv_color[0][0][0]
 low, high = [hue - 10, 100, 100], [hue + 10, 255, 255]
 low, high = np.array(low, dtype=np.uint8), np.array(high, dtype=np.uint8)
+print(low, high)
 pts = deque(maxlen=64)
 
 cap = cv2.VideoCapture(1) # 0 for webcam, 1 for external camera

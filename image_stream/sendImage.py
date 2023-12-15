@@ -1,9 +1,8 @@
-import sys
 import socket
-import signal
 import time
 
 import cv2
+from imutils.video import VideoStream
 import imagezmq
 
 
@@ -11,21 +10,7 @@ import imagezmq
 sender = imagezmq.ImageSender(connect_to='tcp://*:5555', REQ_REP=False)
 
 rpi_name = socket.gethostname()  # send RPi hostname with each image
-cam = cv2.VideoCapture(0)
-
-if not cam.isOpened():
-    print("Could not open camera.")
-    sys.exit(1)
-
-
-def signal_handler(sig, frame):
-    print("Closing camera.")
-    cam.release()
-    sys.exit(0)
-
-
-signal.signal(signal.SIGINT, signal_handler)
-
+cam = VideoStream(src=0).start()
 print("Camera opened.")
 
 fps = 30
@@ -35,8 +20,8 @@ count = 0
 jpeg_quality = 70
 
 while True:
-    ret, image = cam.read()
-    if ret:
+    image = cam.read()
+    if image is not None:
         ret_code, jpg_buffer = cv2.imencode(
             ".jpg", image, [int(cv2.IMWRITE_JPEG_QUALITY), jpeg_quality])
 
