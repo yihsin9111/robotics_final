@@ -77,5 +77,5 @@ class Frisbee:
         plt.show()
 
 fris = Frisbee()
-fris.simulate(0.93, 9.78, 10, 7.98, 0.01)
+fris.simulate(0.93, 10.78, 10, 7.98, 0.01)
 fris.show_plt()
