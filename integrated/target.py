@@ -10,7 +10,7 @@ from cv2 import aruco
 # width = 640
 # height = 480
 from TargetDetection import CircleTarget, ArucoTarget
-from GestureDetection import Gesture
+# from GestureDetection import Gesture
 
 
 '''
@@ -78,7 +78,7 @@ class Detector:
         b, g, r = 59, 51, 172
         self.circle_target = CircleTarget(bgr_color=[b, g, r], depth_c=[1, 1, 1])
         self.aruco_target = ArucoTarget()
-        self.gesture = Gesture()
+        # self.gesture = Gesture()
 
     def detectTarget(self, img):
 
@@ -104,13 +104,14 @@ class Detector:
             tvecs=aruco.tvecs,
         )
     
-    def detectGesture(self, img):
-        self.gesture.get_gesture(img)
-        return self.gesture.pred
+    # def detectGesture(self, img):
+    #     self.gesture.get_gesture(img)
+    #     return self.gesture.pred
 
     def detect(self, img: np.ndarray):
         targetMetaData = self.detectTarget(img.copy())
         arucoMetaData = self.detectAruco(img)
-        gesturePred = self.detectGesture(img)
+        # gesturePred = self.detectGesture(img)
 
-        return targetMetaData, arucoMetaData, gesturePred
+        # return targetMetaData, arucoMetaData, gesturePred
+        return targetMetaData, arucoMetaData

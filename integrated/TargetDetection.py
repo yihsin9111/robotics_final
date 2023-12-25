@@ -28,7 +28,7 @@ class CircleTarget:
         hue = hsv_color[0][0][0]
         low, high = [hue - 10, 100, 100], [hue + 10, 255, 255]
 
-        print('limits:', low, high)
+        # print('limits:', low, high)
         self.low, self.high = np.array(low, dtype=np.uint8), np.array(high, dtype=np.uint8)
 
     def get_target(self, img, cameraMatrix, distCoeffs):
@@ -96,7 +96,7 @@ class ArucoTarget:
 
         frame_markers = aruco.drawDetectedMarkers(img, markerCorners, markerIds)
         [self.rvecs, self.tvecs, _objPoints] = aruco.estimatePoseSingleMarkers(markerCorners, 
-                                                                     16.6, 
+                                                                     38, 
                                                                      np.float32(cameraMatrix),
                                                                      np.float32(distCoeffs),
                                                                      )
