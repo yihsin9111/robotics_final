@@ -1,0 +1,159 @@
+running egg_info
+creating ../../build/TEL/TEL.egg-info
+writing ../../build/TEL/TEL.egg-info/PKG-INFO
+writing dependency_links to ../../build/TEL/TEL.egg-info/dependency_links.txt
+writing entry points to ../../build/TEL/TEL.egg-info/entry_points.txt
+writing requirements to ../../build/TEL/TEL.egg-info/requires.txt
+writing top-level names to ../../build/TEL/TEL.egg-info/top_level.txt
+writing manifest file '../../build/TEL/TEL.egg-info/SOURCES.txt'
+reading manifest file '../../build/TEL/TEL.egg-info/SOURCES.txt'
+writing manifest file '../../build/TEL/TEL.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tel/robot_ros/build/TEL/build
+creating /home/tel/robot_ros/build/TEL/build/lib
+creating /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/stepper_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/parameter.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/camera_servo_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/shooter_servo_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/shooter_servo_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/shooter_CIM_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/up_linear_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/__init__.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/servo.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/up_linear_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/load1_servo_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/wheel_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/nonblocking_delay.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/camera_servo_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/load1_servo_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/bottom_linear_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/stepper_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/linear_sub_old.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/wheel_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/bottom_linear_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+copying TEL/shooter_CIM_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL
+creating /home/tel/robot_ros/build/TEL/build/lib/TEL/server
+copying TEL/server/server.back.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server
+copying TEL/server/__init__.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server
+copying TEL/server/server.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server
+creating /home/tel/robot_ros/build/TEL/build/lib/TEL/server/types
+copying TEL/server/types/route.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/types
+copying TEL/server/types/__init__.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/types
+copying TEL/server/types/state.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/types
+creating /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes
+copying TEL/server/routes/load.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes
+copying TEL/server/routes/move.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes
+copying TEL/server/routes/__init__.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes
+copying TEL/server/routes/turn.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes
+copying TEL/server/routes/shooter.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes
+copying TEL/server/routes/rise.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes
+copying TEL/server/routes/shoot.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes
+copying TEL/server/routes/turn_camera.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes
+copying TEL/server/routes/shooter_rise.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes
+running install
+running install_lib
+creating /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/stepper_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/parameter.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/camera_servo_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/shooter_servo_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/shooter_servo_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/shooter_CIM_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/up_linear_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/__init__.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/servo.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/up_linear_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/load1_servo_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/wheel_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/nonblocking_delay.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+creating /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/server.back.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/__init__.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server
+creating /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/types
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/types/route.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/types
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/types/__init__.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/types
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/types/state.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/types
+creating /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/load.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/move.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/__init__.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/turn.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/shooter.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/rise.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/shoot.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/turn_camera.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/shooter_rise.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/server.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/camera_servo_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/load1_servo_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/bottom_linear_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/stepper_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/linear_sub_old.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/wheel_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/bottom_linear_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/shooter_CIM_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/stepper_test_pub.py to stepper_test_pub.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/parameter.py to parameter.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/camera_servo_test_pub.py to camera_servo_test_pub.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/shooter_servo_sub.py to shooter_servo_sub.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/shooter_servo_test_pub.py to shooter_servo_test_pub.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/shooter_CIM_sub.py to shooter_CIM_sub.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/up_linear_sub.py to up_linear_sub.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/servo.py to servo.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/up_linear_test_pub.py to up_linear_test_pub.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/load1_servo_test_pub.py to load1_servo_test_pub.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/wheel_sub.py to wheel_sub.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/nonblocking_delay.py to nonblocking_delay.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/server.back.py to server.back.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/types/route.py to route.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/types/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/types/state.py to state.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/load.py to load.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/move.py to move.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/turn.py to turn.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/shooter.py to shooter.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/rise.py to rise.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/shoot.py to shoot.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/turn_camera.py to turn_camera.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/shooter_rise.py to shooter_rise.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/server.py to server.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/camera_servo_sub.py to camera_servo_sub.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/load1_servo_sub.py to load1_servo_sub.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/bottom_linear_sub.py to bottom_linear_sub.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/stepper_sub.py to stepper_sub.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/linear_sub_old.py to linear_sub_old.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/wheel_test_pub.py to wheel_test_pub.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/bottom_linear_test_pub.py to bottom_linear_test_pub.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/shooter_CIM_test_pub.py to shooter_CIM_test_pub.cpython-310.pyc
+running install_data
+creating /home/tel/robot_ros/install/TEL/share/ament_index
+creating /home/tel/robot_ros/install/TEL/share/ament_index/resource_index
+creating /home/tel/robot_ros/install/TEL/share/ament_index/resource_index/packages
+copying resource/TEL -> /home/tel/robot_ros/install/TEL/share/ament_index/resource_index/packages
+copying package.xml -> /home/tel/robot_ros/install/TEL/share/TEL
+running install_egg_info
+Copying ../../build/TEL/TEL.egg-info to /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bottom_linear_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing bottom_linear_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing camera_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing camera_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing load1_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing load1_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing server script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing shooter_CIM_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing shooter_CIM_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing shooter_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing shooter_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing stepper_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing stepper_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing up_linear_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing up_linear_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing wheel_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing wheel_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+writing list of installed files to '/home/tel/robot_ros/build/TEL/install.log'

@@ -1,0 +1,44 @@
+[2.082s] Invoking command in '/home/tel/robot_ros/src/TEL': PYTHONPATH=/home/tel/robot_ros/build/TEL/prefix_override:/home/tel/robot_ros/install/TEL/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/TEL build --build-base /home/tel/robot_ros/build/TEL/build install --record /home/tel/robot_ros/build/TEL/install.log --single-version-externally-managed
+[2.757s] running egg_info
+[2.759s] writing ../../build/TEL/TEL.egg-info/PKG-INFO
+[2.759s] writing dependency_links to ../../build/TEL/TEL.egg-info/dependency_links.txt
+[2.761s] writing entry points to ../../build/TEL/TEL.egg-info/entry_points.txt
+[2.761s] writing requirements to ../../build/TEL/TEL.egg-info/requires.txt
+[2.762s] writing top-level names to ../../build/TEL/TEL.egg-info/top_level.txt
+[2.769s] reading manifest file '../../build/TEL/TEL.egg-info/SOURCES.txt'
+[2.774s] writing manifest file '../../build/TEL/TEL.egg-info/SOURCES.txt'
+[2.774s] running build
+[2.775s] running build_py
+[2.779s] copying TEL/server/server.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server
+[2.785s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.785s]   warnings.warn(
+[2.786s] running install
+[2.787s] running install_lib
+[2.791s] copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/server.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server
+[2.795s] byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/server.py to server.cpython-310.pyc
+[2.798s] byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/shooter_CIM_test_pub.py to shooter_CIM_test_pub.cpython-310.pyc
+[2.799s] Sorry: IndentationError: unexpected indent (shooter_CIM_test_pub.py, line 34)
+[2.799s] running install_data
+[2.801s] running install_egg_info
+[2.805s] removing '/home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL-0.0.0-py3.10.egg-info' (and everything under it)
+[2.806s] Copying ../../build/TEL/TEL.egg-info to /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL-0.0.0-py3.10.egg-info
+[2.809s] running install_scripts
+[2.871s] Installing bottom_linear_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.872s] Installing bottom_linear_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.872s] Installing camera_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.873s] Installing camera_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.875s] Installing load1_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.877s] Installing load1_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.878s] Installing server script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.878s] Installing shooter_CIM_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.879s] Installing shooter_CIM_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.879s] Installing shooter_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.880s] Installing shooter_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.880s] Installing stepper_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.881s] Installing stepper_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.881s] Installing up_linear_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.881s] Installing up_linear_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.882s] Installing wheel_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.882s] Installing wheel_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[2.885s] writing list of installed files to '/home/tel/robot_ros/build/TEL/install.log'
+[2.971s] Invoked command in '/home/tel/robot_ros/src/TEL' returned '0': PYTHONPATH=/home/tel/robot_ros/build/TEL/prefix_override:/home/tel/robot_ros/install/TEL/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/TEL build --build-base /home/tel/robot_ros/build/TEL/build install --record /home/tel/robot_ros/build/TEL/install.log --single-version-externally-managed

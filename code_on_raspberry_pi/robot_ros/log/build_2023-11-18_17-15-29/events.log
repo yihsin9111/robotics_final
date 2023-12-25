@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.001221] (TEL) JobQueued: {'identifier': 'TEL', 'dependencies': OrderedDict()}
+[0.001473] (TEL) JobStarted: {'identifier': 'TEL'}
+[0.099128] (-) TimerEvent: {}
+[0.199623] (-) TimerEvent: {}
+[0.300144] (-) TimerEvent: {}
+[0.400637] (-) TimerEvent: {}
+[0.501126] (-) TimerEvent: {}
+[0.601623] (-) TimerEvent: {}
+[0.702198] (-) TimerEvent: {}
+[0.802819] (-) TimerEvent: {}
+[0.903490] (-) TimerEvent: {}
+[1.004001] (-) TimerEvent: {}
+[1.104501] (-) TimerEvent: {}
+[1.204965] (-) TimerEvent: {}
+[1.305441] (-) TimerEvent: {}
+[1.405924] (-) TimerEvent: {}
+[1.506393] (-) TimerEvent: {}
+[1.606889] (-) TimerEvent: {}
+[1.707390] (-) TimerEvent: {}
+[1.807913] (-) TimerEvent: {}
+[1.908515] (-) TimerEvent: {}
+[1.969571] (TEL) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/TEL', 'build', '--build-base', '/home/tel/robot_ros/build/TEL/build', 'install', '--record', '/home/tel/robot_ros/build/TEL/install.log', '--single-version-externally-managed'], 'cwd': '/home/tel/robot_ros/src/TEL', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,1297,2', 'USER': 'tel', 'SSH_CLIENT': '192.168.0.10 58285 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '3', 'MOTD_SHOWN': 'pam', 'HOME': '/home/tel', 'OLDPWD': '/home/tel', 'TERM_PROGRAM_VERSION': '3.2a', 'SSH_TTY': '/dev/pts/1', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.4.22', 'LOGNAME': 'tel', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'screen', 'XDG_SESSION_ID': '3', 'PATH': '/home/tel/.local/bin:/home/tel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_TERMINAL': 'iTerm2', 'PWD': '/home/tel/robot_ros/build/TEL', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::6450:6416:a6db:44e8%wlan0 51516 fe80::e65f:1ff:fe85:5db%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'TMUX_PANE': '%2', 'PYTHONPATH': '/home/tel/robot_ros/build/TEL/prefix_override:/home/tel/robot_ros/install/TEL/lib/python3.10/site-packages:'}, 'shell': False}
+[2.008650] (-) TimerEvent: {}
+[2.109188] (-) TimerEvent: {}
+[2.209724] (-) TimerEvent: {}
+[2.310246] (-) TimerEvent: {}
+[2.410739] (-) TimerEvent: {}
+[2.511180] (-) TimerEvent: {}
+[2.611648] (-) TimerEvent: {}
+[2.626443] (TEL) StdoutLine: {'line': b'running egg_info\n'}
+[2.628125] (TEL) StdoutLine: {'line': b'creating ../../build/TEL/TEL.egg-info\n'}
+[2.628579] (TEL) StdoutLine: {'line': b'writing ../../build/TEL/TEL.egg-info/PKG-INFO\n'}
+[2.629144] (TEL) StdoutLine: {'line': b'writing dependency_links to ../../build/TEL/TEL.egg-info/dependency_links.txt\n'}
+[2.629932] (TEL) StdoutLine: {'line': b'writing entry points to ../../build/TEL/TEL.egg-info/entry_points.txt\n'}
+[2.630382] (TEL) StdoutLine: {'line': b'writing requirements to ../../build/TEL/TEL.egg-info/requires.txt\n'}
+[2.630797] (TEL) StdoutLine: {'line': b'writing top-level names to ../../build/TEL/TEL.egg-info/top_level.txt\n'}
+[2.631419] (TEL) StdoutLine: {'line': b"writing manifest file '../../build/TEL/TEL.egg-info/SOURCES.txt'\n"}
+[2.637801] (TEL) StdoutLine: {'line': b"reading manifest file '../../build/TEL/TEL.egg-info/SOURCES.txt'\n"}
+[2.640665] (TEL) StdoutLine: {'line': b"writing manifest file '../../build/TEL/TEL.egg-info/SOURCES.txt'\n"}
+[2.641149] (TEL) StdoutLine: {'line': b'running build\n'}
+[2.641442] (TEL) StdoutLine: {'line': b'running build_py\n'}
+[2.642305] (TEL) StdoutLine: {'line': b'creating /home/tel/robot_ros/build/TEL/build\n'}
+[2.642802] (TEL) StdoutLine: {'line': b'creating /home/tel/robot_ros/build/TEL/build/lib\n'}
+[2.643305] (TEL) StdoutLine: {'line': b'creating /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.643604] (TEL) StdoutLine: {'line': b'copying TEL/stepper_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.644545] (TEL) StdoutLine: {'line': b'copying TEL/parameter.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.645801] (TEL) StdoutLine: {'line': b'copying TEL/camera_servo_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.647003] (TEL) StdoutLine: {'line': b'copying TEL/shooter_servo_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.648133] (TEL) StdoutLine: {'line': b'copying TEL/shooter_servo_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.649230] (TEL) StdoutLine: {'line': b'copying TEL/shooter_CIM_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.650325] (TEL) StdoutLine: {'line': b'copying TEL/up_linear_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.651461] (TEL) StdoutLine: {'line': b'copying TEL/__init__.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.651910] (TEL) StdoutLine: {'line': b'copying TEL/servo.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.653013] (TEL) StdoutLine: {'line': b'copying TEL/up_linear_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.654143] (TEL) StdoutLine: {'line': b'copying TEL/load1_servo_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.655283] (TEL) StdoutLine: {'line': b'copying TEL/wheel_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.656631] (TEL) StdoutLine: {'line': b'copying TEL/nonblocking_delay.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.657836] (TEL) StdoutLine: {'line': b'copying TEL/camera_servo_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.659116] (TEL) StdoutLine: {'line': b'copying TEL/load1_servo_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.660415] (TEL) StdoutLine: {'line': b'copying TEL/bottom_linear_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.661669] (TEL) StdoutLine: {'line': b'copying TEL/stepper_sub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.662964] (TEL) StdoutLine: {'line': b'copying TEL/linear_sub_old.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.664366] (TEL) StdoutLine: {'line': b'copying TEL/wheel_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.665633] (TEL) StdoutLine: {'line': b'copying TEL/bottom_linear_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.666900] (TEL) StdoutLine: {'line': b'copying TEL/shooter_CIM_test_pub.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL\n'}
+[2.668485] (TEL) StdoutLine: {'line': b'creating /home/tel/robot_ros/build/TEL/build/lib/TEL/server\n'}
+[2.669011] (TEL) StdoutLine: {'line': b'copying TEL/server/server.back.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server\n'}
+[2.670085] (TEL) StdoutLine: {'line': b'copying TEL/server/__init__.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server\n'}
+[2.670698] (TEL) StdoutLine: {'line': b'copying TEL/server/server.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server\n'}
+[2.672197] (TEL) StdoutLine: {'line': b'creating /home/tel/robot_ros/build/TEL/build/lib/TEL/server/types\n'}
+[2.672714] (TEL) StdoutLine: {'line': b'copying TEL/server/types/route.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/types\n'}
+[2.673793] (TEL) StdoutLine: {'line': b'copying TEL/server/types/__init__.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/types\n'}
+[2.674317] (TEL) StdoutLine: {'line': b'copying TEL/server/types/state.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/types\n'}
+[2.676145] (TEL) StdoutLine: {'line': b'creating /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes\n'}
+[2.676654] (TEL) StdoutLine: {'line': b'copying TEL/server/routes/load.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes\n'}
+[2.677651] (TEL) StdoutLine: {'line': b'copying TEL/server/routes/move.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes\n'}
+[2.678999] (TEL) StdoutLine: {'line': b'copying TEL/server/routes/__init__.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes\n'}
+[2.680195] (TEL) StdoutLine: {'line': b'copying TEL/server/routes/turn.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes\n'}
+[2.681389] (TEL) StdoutLine: {'line': b'copying TEL/server/routes/shooter.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes\n'}
+[2.682603] (TEL) StdoutLine: {'line': b'copying TEL/server/routes/rise.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes\n'}
+[2.683607] (TEL) StdoutLine: {'line': b'copying TEL/server/routes/shoot.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes\n'}
+[2.684611] (TEL) StdoutLine: {'line': b'copying TEL/server/routes/turn_camera.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes\n'}
+[2.685653] (TEL) StdoutLine: {'line': b'copying TEL/server/routes/shooter_rise.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes\n'}
+[2.689619] (TEL) StdoutLine: {'line': b'running install\n'}
+[2.690170] (TEL) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.690692] (TEL) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.691230] (TEL) StdoutLine: {'line': b'running install_lib\n'}
+[2.693505] (TEL) StdoutLine: {'line': b'creating /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.693993] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/stepper_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.694555] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/parameter.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.695081] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/camera_servo_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.695577] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/shooter_servo_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.696073] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/shooter_servo_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.696546] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/shooter_CIM_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.696934] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/up_linear_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.697319] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/__init__.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.697758] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/servo.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.698131] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/up_linear_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.698559] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/load1_servo_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.698963] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/wheel_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.699381] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/nonblocking_delay.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.699932] (TEL) StdoutLine: {'line': b'creating /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server\n'}
+[2.700342] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/server.back.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server\n'}
+[2.700736] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/__init__.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server\n'}
+[2.701135] (TEL) StdoutLine: {'line': b'creating /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/types\n'}
+[2.701567] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/types/route.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/types\n'}
+[2.702078] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/types/__init__.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/types\n'}
+[2.702633] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/types/state.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/types\n'}
+[2.703133] (TEL) StdoutLine: {'line': b'creating /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes\n'}
+[2.703632] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/load.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes\n'}
+[2.704117] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/move.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes\n'}
+[2.704617] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/__init__.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes\n'}
+[2.705065] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/turn.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes\n'}
+[2.705493] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/shooter.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes\n'}
+[2.705901] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/rise.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes\n'}
+[2.706314] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/shoot.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes\n'}
+[2.706766] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/turn_camera.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes\n'}
+[2.707190] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/shooter_rise.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes\n'}
+[2.707568] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/server.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server\n'}
+[2.707926] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/camera_servo_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.708347] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/load1_servo_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.708732] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/bottom_linear_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.709104] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/stepper_sub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.709485] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/linear_sub_old.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.709864] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/wheel_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.710279] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/bottom_linear_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.710685] (TEL) StdoutLine: {'line': b'copying /home/tel/robot_ros/build/TEL/build/lib/TEL/shooter_CIM_test_pub.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL\n'}
+[2.711752] (-) TimerEvent: {}
+[2.712698] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/stepper_test_pub.py to stepper_test_pub.cpython-310.pyc\n'}
+[2.714074] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/parameter.py to parameter.cpython-310.pyc\n'}
+[2.715825] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/camera_servo_test_pub.py to camera_servo_test_pub.cpython-310.pyc\n'}
+[2.717112] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/shooter_servo_sub.py to shooter_servo_sub.cpython-310.pyc\n'}
+[2.718608] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/shooter_servo_test_pub.py to shooter_servo_test_pub.cpython-310.pyc\n'}
+[2.719743] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/shooter_CIM_sub.py to shooter_CIM_sub.cpython-310.pyc\n'}
+[2.721280] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/up_linear_sub.py to up_linear_sub.cpython-310.pyc\n'}
+[2.723050] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/__init__.py to __init__.cpython-310.pyc\n'}
+[2.723657] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/servo.py to servo.cpython-310.pyc\n'}
+[2.725156] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/up_linear_test_pub.py to up_linear_test_pub.cpython-310.pyc\n'}
+[2.726405] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/load1_servo_test_pub.py to load1_servo_test_pub.cpython-310.pyc\n'}
+[2.727569] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/wheel_sub.py to wheel_sub.cpython-310.pyc\n'}
+[2.729682] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/nonblocking_delay.py to nonblocking_delay.cpython-310.pyc\n'}
+[2.730601] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/server.back.py to server.back.cpython-310.pyc\n'}
+[2.731663] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/__init__.py to __init__.cpython-310.pyc\n'}
+[2.732262] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/types/route.py to route.cpython-310.pyc\n'}
+[2.733368] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/types/__init__.py to __init__.cpython-310.pyc\n'}
+[2.733962] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/types/state.py to state.cpython-310.pyc\n'}
+[2.734926] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/load.py to load.cpython-310.pyc\n'}
+[2.735932] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/move.py to move.cpython-310.pyc\n'}
+[2.737128] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/__init__.py to __init__.cpython-310.pyc\n'}
+[2.737977] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/turn.py to turn.cpython-310.pyc\n'}
+[2.739102] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/shooter.py to shooter.cpython-310.pyc\n'}
+[2.740013] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/rise.py to rise.cpython-310.pyc\n'}
+[2.740951] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/shoot.py to shoot.cpython-310.pyc\n'}
+[2.741940] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/turn_camera.py to turn_camera.cpython-310.pyc\n'}
+[2.743149] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/shooter_rise.py to shooter_rise.cpython-310.pyc\n'}
+[2.744276] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/server.py to server.cpython-310.pyc\n'}
+[2.746394] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/camera_servo_sub.py to camera_servo_sub.cpython-310.pyc\n'}
+[2.748158] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/load1_servo_sub.py to load1_servo_sub.cpython-310.pyc\n'}
+[2.749625] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/bottom_linear_sub.py to bottom_linear_sub.cpython-310.pyc\n'}
+[2.751513] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/stepper_sub.py to stepper_sub.cpython-310.pyc\n'}
+[2.753527] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/linear_sub_old.py to linear_sub_old.cpython-310.pyc\n'}
+[2.755256] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/wheel_test_pub.py to wheel_test_pub.cpython-310.pyc\n'}
+[2.756490] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/bottom_linear_test_pub.py to bottom_linear_test_pub.cpython-310.pyc\n'}
+[2.757652] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/shooter_CIM_test_pub.py to shooter_CIM_test_pub.cpython-310.pyc\n'}
+[2.758734] (TEL) StderrLine: {'line': b'Sorry: IndentationError: unexpected indent (shooter_CIM_test_pub.py, line 34)\n'}
+[2.759137] (TEL) StdoutLine: {'line': b'running install_data\n'}
+[2.760141] (TEL) StdoutLine: {'line': b'creating /home/tel/robot_ros/install/TEL/share/ament_index\n'}
+[2.760618] (TEL) StdoutLine: {'line': b'creating /home/tel/robot_ros/install/TEL/share/ament_index/resource_index\n'}
+[2.761009] (TEL) StdoutLine: {'line': b'creating /home/tel/robot_ros/install/TEL/share/ament_index/resource_index/packages\n'}
+[2.761367] (TEL) StdoutLine: {'line': b'copying resource/TEL -> /home/tel/robot_ros/install/TEL/share/ament_index/resource_index/packages\n'}
+[2.761720] (TEL) StdoutLine: {'line': b'copying package.xml -> /home/tel/robot_ros/install/TEL/share/TEL\n'}
+[2.761987] (TEL) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.765937] (TEL) StdoutLine: {'line': b'Copying ../../build/TEL/TEL.egg-info to /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL-0.0.0-py3.10.egg-info\n'}
+[2.768728] (TEL) StdoutLine: {'line': b'running install_scripts\n'}
+[2.811892] (-) TimerEvent: {}
+[2.830192] (TEL) StdoutLine: {'line': b'Installing bottom_linear_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.830741] (TEL) StdoutLine: {'line': b'Installing bottom_linear_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.831150] (TEL) StdoutLine: {'line': b'Installing camera_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.831530] (TEL) StdoutLine: {'line': b'Installing camera_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.831885] (TEL) StdoutLine: {'line': b'Installing load1_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.832254] (TEL) StdoutLine: {'line': b'Installing load1_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.832628] (TEL) StdoutLine: {'line': b'Installing server script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.832995] (TEL) StdoutLine: {'line': b'Installing shooter_CIM_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.833364] (TEL) StdoutLine: {'line': b'Installing shooter_CIM_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.833727] (TEL) StdoutLine: {'line': b'Installing shooter_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.834089] (TEL) StdoutLine: {'line': b'Installing shooter_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.834503] (TEL) StdoutLine: {'line': b'Installing stepper_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.834856] (TEL) StdoutLine: {'line': b'Installing stepper_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.835219] (TEL) StdoutLine: {'line': b'Installing up_linear_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.835560] (TEL) StdoutLine: {'line': b'Installing up_linear_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.835932] (TEL) StdoutLine: {'line': b'Installing wheel_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.836310] (TEL) StdoutLine: {'line': b'Installing wheel_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[2.839509] (TEL) StdoutLine: {'line': b"writing list of installed files to '/home/tel/robot_ros/build/TEL/install.log'\n"}
+[2.912102] (-) TimerEvent: {}
+[2.918568] (TEL) CommandEnded: {'returncode': 0}
+[3.012268] (-) TimerEvent: {}
+[3.043657] (TEL) JobEnded: {'identifier': 'TEL', 'rc': 0}
+[3.046103] (-) EventReactorShutdown: {}

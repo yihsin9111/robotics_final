@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.001340] (TEL) JobQueued: {'identifier': 'TEL', 'dependencies': OrderedDict()}
+[0.001602] (TEL) JobStarted: {'identifier': 'TEL'}
+[0.102936] (-) TimerEvent: {}
+[0.203796] (-) TimerEvent: {}
+[0.304341] (-) TimerEvent: {}
+[0.404906] (-) TimerEvent: {}
+[0.505391] (-) TimerEvent: {}
+[0.605878] (-) TimerEvent: {}
+[0.706393] (-) TimerEvent: {}
+[0.806907] (-) TimerEvent: {}
+[0.907560] (-) TimerEvent: {}
+[1.008662] (-) TimerEvent: {}
+[1.109339] (-) TimerEvent: {}
+[1.209920] (-) TimerEvent: {}
+[1.310448] (-) TimerEvent: {}
+[1.410974] (-) TimerEvent: {}
+[1.511465] (-) TimerEvent: {}
+[1.611951] (-) TimerEvent: {}
+[1.712437] (-) TimerEvent: {}
+[1.813069] (-) TimerEvent: {}
+[1.913685] (-) TimerEvent: {}
+[2.014172] (-) TimerEvent: {}
+[2.114729] (-) TimerEvent: {}
+[2.215756] (-) TimerEvent: {}
+[2.241493] (TEL) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/TEL', 'build', '--build-base', '/home/tel/robot_ros/build/TEL/build', 'install', '--record', '/home/tel/robot_ros/build/TEL/install.log', '--single-version-externally-managed'], 'cwd': '/home/tel/robot_ros/src/TEL', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,12065,1', 'MAIL': '/var/mail/tel', 'USER': 'tel', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '3', 'MOTD_SHOWN': 'pam', 'HOME': '/home/tel', 'OLDPWD': '/home/tel', 'TERM_PROGRAM_VERSION': '3.2a', 'HUSHLOGIN': 'FALSE', 'SYSTEMD_EXEC_PID': '991', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LOGNAME': 'tel', 'JOURNAL_STREAM': '8:23587', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'screen', 'XDG_SESSION_ID': '3', 'PATH': '/home/tel/.local/bin:/home/tel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'INVOCATION_ID': '5d14d07afe194541a3c25617f07891cf', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_VTNR': '1', 'PWD': '/home/tel/robot_ros/build/TEL', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::6450:6416:a6db:44e8%wlan0 56919 fe80::e65f:1ff:fe85:5db%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'TMUX_PANE': '%5', 'PYTHONPATH': '/home/tel/robot_ros/build/TEL/prefix_override:/home/tel/robot_ros/install/TEL/lib/python3.10/site-packages:'}, 'shell': False}
+[2.315865] (-) TimerEvent: {}
+[2.416381] (-) TimerEvent: {}
+[2.516953] (-) TimerEvent: {}
+[2.617540] (-) TimerEvent: {}
+[2.718153] (-) TimerEvent: {}
+[2.818641] (-) TimerEvent: {}
+[2.919167] (-) TimerEvent: {}
+[2.989849] (TEL) StdoutLine: {'line': b'running egg_info\n'}
+[2.991713] (TEL) StdoutLine: {'line': b'writing ../../build/TEL/TEL.egg-info/PKG-INFO\n'}
+[2.992511] (TEL) StdoutLine: {'line': b'writing dependency_links to ../../build/TEL/TEL.egg-info/dependency_links.txt\n'}
+[2.993653] (TEL) StdoutLine: {'line': b'writing entry points to ../../build/TEL/TEL.egg-info/entry_points.txt\n'}
+[2.994196] (TEL) StdoutLine: {'line': b'writing requirements to ../../build/TEL/TEL.egg-info/requires.txt\n'}
+[2.994743] (TEL) StdoutLine: {'line': b'writing top-level names to ../../build/TEL/TEL.egg-info/top_level.txt\n'}
+[3.003250] (TEL) StdoutLine: {'line': b"reading manifest file '../../build/TEL/TEL.egg-info/SOURCES.txt'\n"}
+[3.007443] (TEL) StdoutLine: {'line': b"writing manifest file '../../build/TEL/TEL.egg-info/SOURCES.txt'\n"}
+[3.007997] (TEL) StdoutLine: {'line': b'running build\n'}
+[3.008320] (TEL) StdoutLine: {'line': b'running build_py\n'}
+[3.017361] (TEL) StdoutLine: {'line': b'running install\n'}
+[3.017896] (TEL) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.018312] (TEL) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.018909] (TEL) StdoutLine: {'line': b'running install_lib\n'}
+[3.019302] (-) TimerEvent: {}
+[3.029490] (TEL) StdoutLine: {'line': b'byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/shooter_CIM_test_pub.py to shooter_CIM_test_pub.cpython-310.pyc\n'}
+[3.030443] (TEL) StderrLine: {'line': b'Sorry: IndentationError: unexpected indent (shooter_CIM_test_pub.py, line 34)\n'}
+[3.030901] (TEL) StdoutLine: {'line': b'running install_data\n'}
+[3.032166] (TEL) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.036992] (TEL) StdoutLine: {'line': b"removing '/home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.037965] (TEL) StdoutLine: {'line': b'Copying ../../build/TEL/TEL.egg-info to /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL-0.0.0-py3.10.egg-info\n'}
+[3.040763] (TEL) StdoutLine: {'line': b'running install_scripts\n'}
+[3.106146] (TEL) StdoutLine: {'line': b'Installing bottom_linear_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.106713] (TEL) StdoutLine: {'line': b'Installing bottom_linear_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.107341] (TEL) StdoutLine: {'line': b'Installing camera_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.108003] (TEL) StdoutLine: {'line': b'Installing camera_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.108551] (TEL) StdoutLine: {'line': b'Installing load1_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.109109] (TEL) StdoutLine: {'line': b'Installing load1_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.109734] (TEL) StdoutLine: {'line': b'Installing server script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.110320] (TEL) StdoutLine: {'line': b'Installing shooter_CIM_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.110897] (TEL) StdoutLine: {'line': b'Installing shooter_CIM_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.111556] (TEL) StdoutLine: {'line': b'Installing shooter_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.112103] (TEL) StdoutLine: {'line': b'Installing shooter_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.113150] (TEL) StdoutLine: {'line': b'Installing stepper_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.113692] (TEL) StdoutLine: {'line': b'Installing stepper_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.114107] (TEL) StdoutLine: {'line': b'Installing up_linear_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.114601] (TEL) StdoutLine: {'line': b'Installing up_linear_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.115157] (TEL) StdoutLine: {'line': b'Installing wheel_sub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.115635] (TEL) StdoutLine: {'line': b'Installing wheel_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL\n'}
+[3.119579] (TEL) StdoutLine: {'line': b"writing list of installed files to '/home/tel/robot_ros/build/TEL/install.log'\n"}
+[3.120023] (-) TimerEvent: {}
+[3.207120] (TEL) CommandEnded: {'returncode': 0}
+[3.220275] (-) TimerEvent: {}
+[3.321263] (-) TimerEvent: {}
+[3.344436] (TEL) JobEnded: {'identifier': 'TEL', 'rc': 0}
+[3.346911] (-) EventReactorShutdown: {}

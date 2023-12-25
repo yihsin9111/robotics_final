@@ -1,0 +1,41 @@
+[3.068s] Invoking command in '/home/tel/robot_ros/src/TEL': PYTHONPATH=/home/tel/robot_ros/build/TEL/prefix_override:/home/tel/robot_ros/install/TEL/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/TEL build --build-base /home/tel/robot_ros/build/TEL/build install --record /home/tel/robot_ros/build/TEL/install.log --single-version-externally-managed
+[3.741s] running egg_info
+[3.742s] writing ../../build/TEL/TEL.egg-info/PKG-INFO
+[3.744s] writing dependency_links to ../../build/TEL/TEL.egg-info/dependency_links.txt
+[3.745s] writing entry points to ../../build/TEL/TEL.egg-info/entry_points.txt
+[3.746s] writing requirements to ../../build/TEL/TEL.egg-info/requires.txt
+[3.746s] writing top-level names to ../../build/TEL/TEL.egg-info/top_level.txt
+[3.754s] reading manifest file '../../build/TEL/TEL.egg-info/SOURCES.txt'
+[3.759s] writing manifest file '../../build/TEL/TEL.egg-info/SOURCES.txt'
+[3.760s] running build
+[3.760s] running build_py
+[3.775s] running install
+[3.776s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.776s]   warnings.warn(
+[3.777s] running install_lib
+[3.796s] byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/shooter_CIM_test_pub.py to shooter_CIM_test_pub.cpython-310.pyc
+[3.798s] Sorry: IndentationError: unexpected indent (shooter_CIM_test_pub.py, line 34)
+[3.798s] running install_data
+[3.802s] running install_egg_info
+[3.809s] removing '/home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL-0.0.0-py3.10.egg-info' (and everything under it)
+[3.810s] Copying ../../build/TEL/TEL.egg-info to /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL-0.0.0-py3.10.egg-info
+[3.815s] running install_scripts
+[3.879s] Installing bottom_linear_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.880s] Installing bottom_linear_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.881s] Installing camera_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.881s] Installing camera_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.882s] Installing load1_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.882s] Installing load1_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.883s] Installing server script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.883s] Installing shooter_CIM_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.884s] Installing shooter_CIM_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.884s] Installing shooter_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.885s] Installing shooter_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.885s] Installing stepper_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.886s] Installing stepper_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.887s] Installing up_linear_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.887s] Installing up_linear_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.888s] Installing wheel_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.888s] Installing wheel_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+[3.892s] writing list of installed files to '/home/tel/robot_ros/build/TEL/install.log'
+[3.981s] Invoked command in '/home/tel/robot_ros/src/TEL' returned '0': PYTHONPATH=/home/tel/robot_ros/build/TEL/prefix_override:/home/tel/robot_ros/install/TEL/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/TEL build --build-base /home/tel/robot_ros/build/TEL/build install --record /home/tel/robot_ros/build/TEL/install.log --single-version-externally-managed

@@ -1,0 +1,45 @@
+running egg_info
+writing ../../build/TEL/TEL.egg-info/PKG-INFO
+writing dependency_links to ../../build/TEL/TEL.egg-info/dependency_links.txt
+writing entry points to ../../build/TEL/TEL.egg-info/entry_points.txt
+writing requirements to ../../build/TEL/TEL.egg-info/requires.txt
+writing top-level names to ../../build/TEL/TEL.egg-info/top_level.txt
+reading manifest file '../../build/TEL/TEL.egg-info/SOURCES.txt'
+writing manifest file '../../build/TEL/TEL.egg-info/SOURCES.txt'
+running build
+running build_py
+copying TEL/server/routes/move.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes
+copying TEL/server/routes/turn.py -> /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/move.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes
+copying /home/tel/robot_ros/build/TEL/build/lib/TEL/server/routes/turn.py -> /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/move.py to move.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/server/routes/turn.py to turn.cpython-310.pyc
+byte-compiling /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL/shooter_CIM_test_pub.py to shooter_CIM_test_pub.cpython-310.pyc
+Sorry: IndentationError: unexpected indent (shooter_CIM_test_pub.py, line 34)
+running install_data
+running install_egg_info
+removing '/home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/TEL/TEL.egg-info to /home/tel/robot_ros/install/TEL/lib/python3.10/site-packages/TEL-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bottom_linear_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing bottom_linear_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing camera_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing camera_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing load1_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing load1_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing server script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing shooter_CIM_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing shooter_CIM_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing shooter_servo_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing shooter_servo_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing stepper_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing stepper_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing up_linear_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing up_linear_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing wheel_sub script to /home/tel/robot_ros/install/TEL/lib/TEL
+Installing wheel_test_pub script to /home/tel/robot_ros/install/TEL/lib/TEL
+writing list of installed files to '/home/tel/robot_ros/build/TEL/install.log'

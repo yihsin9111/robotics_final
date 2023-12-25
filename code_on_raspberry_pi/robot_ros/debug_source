@@ -1,0 +1,2 @@
+. ~/ros2_humble/install/setup.bash
+. ~/robot_ros/install/local_setup.sh

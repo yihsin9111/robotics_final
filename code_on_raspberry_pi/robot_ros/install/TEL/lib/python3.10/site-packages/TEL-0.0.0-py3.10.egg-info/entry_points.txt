@@ -1,0 +1,19 @@
+[console_scripts]
+bottom_linear_sub = TEL.bottom_linear_sub:main
+bottom_linear_test_pub = TEL.bottom_linear_test_pub:main
+camera_servo_sub = TEL.camera_servo_sub:main
+camera_servo_test_pub = TEL.camera_servo_test_pub:main
+load1_servo_sub = TEL.load1_servo_sub:main
+load1_servo_test_pub = TEL.load1_servo_test_pub:main
+server = TEL.server.server:main
+shooter_CIM_sub = TEL.shooter_CIM_sub:main
+shooter_CIM_test_pub = TEL.shooter_CIM_test_pub:main
+shooter_servo_sub = TEL.shooter_servo_sub:main
+shooter_servo_test_pub = TEL.shooter_servo_test_pub:main
+stepper_sub = TEL.stepper_sub:main
+stepper_test_pub = TEL.stepper_test_pub:main
+up_linear_sub = TEL.up_linear_sub:main
+up_linear_test_pub = TEL.up_linear_test_pub:main
+wheel_sub = TEL.wheel_sub:main
+wheel_test_pub = TEL.wheel_test_pub:main
+

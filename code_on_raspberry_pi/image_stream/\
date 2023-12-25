@@ -1,0 +1,27 @@
+import socket
+import time
+
+# from imutils.video import VideoStream
+import imageio as iio
+import imagezmq
+import numpy as np
+
+
+# use either of the formats below to specifiy address of display computer
+# sender = imagezmq.ImageSender(connect_to='tcp://jeff-macbook:5555')
+sender = imagezmq.ImageSender(connect_to='tcp://192.168.10.13:5555')
+
+rpi_name = socket.gethostname()  # send RPi hostname with each image
+# cam = VideoStream(usePiCamera=True).start()
+cam = iio.get_reader("<video0>")
+time.sleep(2.0)  # allow camera sensor to warm up
+count = 0
+while True:  # send images as stream until Ctrl-C
+    image = np.asarray(cam.get_data(0))
+    print(image[0, 0])
+    # image = cam.read()
+    sender.send_image(rpi_name, image)
+    print(f"Image {count} sent.")
+    count += 1
+
+    time.sleep(0.001)
